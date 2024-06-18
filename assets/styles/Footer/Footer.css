@@ -1,0 +1,113 @@
+#facebook-logo-footer{
+    width: 2em;
+    margin-right: 1em;
+}
+
+#footer_container {
+    position: relative;
+    background-color:rgb(119,177,174);
+    padding: 0 3em;
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.policies-contact-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    gap: 10em;
+    width: 90vw;
+    position: relative;
+    bottom: -2em;
+}
+
+.policies-contact-footer li {
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.policies-contact-footer li:hover {
+    transition: 0.5s;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.dev-policies-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    gap: 8em;
+    width: 90vw;
+    position: relative;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.logo-insta-footer {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: lighter;
+    left: 1em;
+    color: black;
+}
+
+.social-networks-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5em;
+    gap: 2em;
+    width: 90vw;
+    position: relative;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#contact-link {
+    color: black;
+    text-decoration: none;
+}
+
+#contact-link:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#politique_de_confidentialite-link {
+    color: black;
+    text-decoration: none;
+}
+
+#politique_de_confidentialite-link:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#mentions_legales-link {
+    color: black;
+    text-decoration: none;
+}
+
+#mentions_legales-link:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#cgv-link {
+    color: black;
+    text-decoration: none;
+}
+
+#cgv-link:hover {
+    color: whitesmoke;
+    transition: 0.5s;
+}

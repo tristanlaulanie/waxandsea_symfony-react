@@ -1,0 +1,847 @@
+@media screen and (max-height: 760px) {
+    .command_component_coordonnees {
+      position: relative;
+      top: -24vh;
+      left: 0.5vw;
+    }
+  
+    #billing_delivery-adress_form {
+      position: relative;
+      left: 3vw;
+    }
+  
+    #confirm_button button {
+      position: relative;
+      margin-top: 9vh;
+      margin-right: 0.5vw;
+    }
+  }
+  
+  @media screen and (width <= 2400px) {
+    #social-status_title {
+      left: -0.6vw;
+    }
+  
+    #last_name_label {
+      position: relative;
+      left: -0.2em;
+    }
+  
+    #first-name_label_input {
+      /* border: 2px dashed red; */
+      height: 70px;
+    }
+  
+    #last-name_label_input {
+      position: relative;
+      left: 0.5vw;
+      /* border: 2px dashed red; */
+      width: 28vw;
+      height: 70px;
+    }
+  
+    #firstname-lastname_form {
+      /* border: 2px dashed red; */
+      width: 98%;
+    }
+  
+    #company-name_form_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      /* border: 2px dashed red; */
+      position: relative;
+      top: 30px;
+      left: 17vw;
+      height: 130px;
+      width: 65vw;
+    }
+  
+    #company-name_form_container label {
+      position: absolute;
+      top: -105px;
+      left: 8.5vw;
+    }
+  
+    #company-name_form_container input {
+      position: relative;
+      left: 8.5vw;
+      width: 98%;
+    }
+  
+    #company-name_label_input {
+      position: relative;
+      top: 20px;
+      left: -8vw;
+    }
+  
+    #confirm_button button {
+      position: relative;
+      left: 3.3vw;
+    }
+  
+    #billing-adress_form {
+      position: relative;
+      left: -3.5vw;
+    }
+  
+    #delivery_same-adress {
+      left: -20vw;
+    }
+  
+    #delivery-adress_form {
+      left: 5vw;
+    }
+  }
+  
+  @media screen and (width <= 2400px) and (max-height: 960px) {
+    #confirm_button button {
+      position: relative;
+      top: 15vh;
+      left: -1.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1920px) and (max-height: 960px) {
+    .command_component_coordonnees {
+      position: relative;
+      top: 2vh;
+      left: 0.5vw;
+    }
+    #confirm_button button {
+      position: relative;
+      top: -10vh;
+      left: -2.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1910px) and (max-height: 960px) {
+    #confirm_button button {
+      position: relative;
+      top: -10vh;
+      left: -2.4vw;
+    }
+  }
+  
+  @media screen and (width <= 1760px) {
+    #confirm_button {
+      position: relative;
+      top: 10px;
+      left: -2.2vw;
+    }
+  }
+  
+  @media screen and (width <= 1627px) {
+    #confirm_button button {
+      height: 70px;
+    }
+  }
+  
+  @media screen and (width <= 1610px) {
+    #last-name_label_input {
+      /* border: 2px dashed red; */
+      width: 28vw;
+    }
+  
+    #last-name_label_input-container {
+      /* border: 2px dotted blue; */
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 34vw;
+      height: 58px;
+      position: relative;
+      top: 0;
+      left: -7vw;
+    }
+  
+    #last_name_label {
+      width: 30vw;
+      position: relative;
+      top: 0;
+      left: 3vw;
+    }
+  
+    #last_name_input {
+      /* border: 2px solid red;  */
+      width: 80vw;
+      top: -2px;
+    }
+  }
+  
+  @media screen and (width <= 1595px) and (max-height: 950px) {
+    .command_component_coordonnees {
+      position: relative;
+      top: 5vh;
+      left: 0.5vw;
+    }
+  
+    #confirm_button button {
+      position: relative;
+      top: -15vh;
+      left: 8vw;
+    }
+  }
+  
+  @media screen and (width <= 1540px) {
+    #last_name_label {
+      /* border: 2px dotted blue; */
+      width: 29vw;
+    }
+  }
+  
+  @media screen and (width <= 1530px) {
+    #social-status_form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    #social-status_title {
+      position: relative;
+      left: -0.2em;
+    }
+  
+    #company_name {
+      position: fixed;
+    }
+  
+    #company-name_label_input {
+      position: relative;
+      left: -28vw;
+    }
+  
+    #company-name_form {
+      padding: 1rem 0;
+      width: auto;
+      /* border: 2px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      left: 0;
+    }
+  
+    #company-name_form_container {
+      /* border: 2px dashed red; */
+      position: relative;
+      top: 40px;
+      left: 0;
+      height: 110px;
+      width: 64vw;
+      padding: 0 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    #company-name_label_input {
+      position: relative;
+      top: 50px;
+      left: -16vw;
+    }
+  
+    #company-name_form_container label {
+      position: absolute;
+      top: -105px;
+      left: 15vw;
+    }
+  
+    #company-name_form input {
+      position: relative;
+      left: 15vw;
+      width: 63vw;
+    }
+  
+    #billing-adress_title {
+      position: relative;
+      left: -18vw;
+    }
+  
+    #street-name-number label {
+      position: relative;
+      left: -13.5vw;
+    }
+  
+    #postal-code label {
+      position: relative;
+      left: -3.5vw;
+    }
+  
+    #billing-adress_country {
+      position: relative;
+      left: -15vw;
+    }
+  
+    #billing-city label {
+      position: relative;
+      left: -8vw;
+    }
+  
+    #billing_phone-number label {
+      position: relative;
+      left: -4vw;
+    }
+  
+    #billing_email-adress label {
+      position: relative;
+      left: 0;
+    }
+  
+    #billing_adress_form {
+      position: relative;
+      left: -3vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+    }
+  
+    #delivery_adress_form {
+      position: relative;
+      left: -3vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+    }
+  
+    #confirm_button button {
+      position: relative;
+      top: -30px;
+      left: 3.2vw;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (width <= 1530px) and (max-height: 960px) {
+    #confirm_button button {
+      position: relative;
+      top: -12vh;
+      left: 1.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1500px) {
+    #social-status_title {
+      position: relative;
+      left: 3.5vw;
+    }
+  
+    #firstname-lastname_form {
+      left: 2.5vw;
+    }
+  
+    #first-name_label_input_container {
+      /* border: 2px dotted blue; */
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      height: 65px;
+      padding: 5px;
+    }
+  
+    #first-name_label_input label {
+      /* border: 2px dashed blue; */
+      width: 10vw;
+    }
+  
+    #last-name_label_input {
+      /* border: 2px dashed red; */
+      width: 35vw;
+      display: flex;
+      gap: 0;
+    }
+  
+    #last_name_label {
+      display: inline;
+      /* border: 2px dashed rgb(164, 90, 229); */
+      width: 28vw;
+      text-align: left;
+      margin: 0;
+      position: relative;
+      left: 0;
+    }
+  
+    #last_name_input {
+      position: relative;
+      left: 3vw;
+    }
+  
+    #company-name_label_input {
+      left: -12.1vw;
+    }
+  
+    .command_component_coordonnees {
+      left: -4.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1500px) and (max-height: 950px) {
+    #last-name_label_input-container {
+      position: relative;
+      left: -2vw;
+    }
+  
+    #last_name_input {
+      width: 30vw;
+      position: relative;
+      left: -1.5vw;
+      /* background-color: red; */
+    }
+  
+    #company-name_label_input input {
+      /* background-color: red; */
+      width: 60vw;
+    }
+  
+    #billing_delivery-adress_form {
+      position: relative;
+      left: 3vw;
+    }
+  }
+  
+  @media screen and (width <= 1354px) {
+    #social-status_title {
+      position: absolute;
+      top: -1em;
+      left: 1.5em;
+    }
+  
+    #company-name_form {
+      position: relative;
+      top: -10px;
+    }
+  
+    #first-name_label {
+      position: relative;
+      left: 1.5vw;
+    }
+  
+    #last-name_label_input-container {
+      position: relative;
+      left: -1.8vw;
+    }
+  }
+  
+  @media screen and (width <= 1350px) and (max-height: 950px) {
+    #last-name_label_input-container input {
+      position: relative;
+      left: -5.5vw;
+      width: 17vw;
+      /* background-color: red; */
+    }
+  }
+  
+  @media screen and (width <= 1349px) {
+    #last-name_label_input-container {
+      width: 31vw;
+    }
+  
+    #last_name_input {
+      top: 0.3px;
+      left: 0vw;
+    }
+  }
+  
+  @media screen and (width <= 1270px) {
+    #firstname-lastname_form {
+      top: 0;
+      left: 3vw;
+    }
+  
+    #company-name_form {
+      top: -22px;
+      left: 1vw;
+    }
+  }
+  
+  @media screen and (width <= 1257px) {
+    #first-name_label_input_container {
+      /* border: 2px dashed darkmagenta; */
+      width: 32vw;
+      position: relative;
+      left: 1vw;
+    }
+  
+    #first-name_label_input_container label {
+      /* border: 2px dotted blue; */
+      left: 0;
+      display: inline-block;
+      width: 1200px;
+      margin: 0;
+    }
+  
+    #company-name_label_input input {
+      width: 63vw;
+    }
+  }
+  
+  @media screen and (width <= 1257px) and (max-height: 950px) {
+    #company-name_label_input input {
+      width: 57.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1230px) {
+    #first-name_label_input_container label {
+      /* border: 3px dotted darkmagenta; */
+      width: 12vw;
+    }
+    #company-name_form {
+      top: -8px;
+      left: 0;
+    }
+  }
+  
+  @media screen and (width <= 1196px) and (max-height: 950px) {
+    #first-name_label_input_container {
+      /* border: 2px dashed darkmagenta; */
+      width: 32vw;
+      position: relative;
+      left: 1vw;
+    }
+  
+    #first-name_label_input_container label {
+      /* border: 2px dotted blue; */
+      left: 0;
+      margin: 0;
+    }
+  
+    #company-name_label_input input {
+      width: 58vw;
+    }
+  
+    #billing_delivery-adress_form {
+      position: relative;
+      left: 5vw;
+    }
+  }
+  
+  @media screen and (width <= 1180px) {
+    #first-name_label_input_container label,
+    #last-name_label_input-container label {
+      font-size: 2.3em;
+      top: 5px;
+    }
+  }
+  
+  @media screen and (width <= 1160px) {
+    #social-status_title {
+      left: 1.5vw;
+    }
+  
+    #firstname-lastname_form {
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      align-items: flex-start;
+    }
+  
+    #first-name_label_input {
+      position: relative;
+      left: -3.5vw;
+      display: flex;
+    }
+  
+    #first-name_label_input_container input {
+      position: relative;
+      left: -1em;
+    }
+  }
+  
+  @media screen and (width <= 1160px) and (max-height: 950px) {
+    #first-name_label_input_container {
+      /* border: 1px solid red; */
+      width: 55vw;
+      display: flex;
+      justify-content: flex-start;
+      gap: 3vw;
+    }
+  
+    #first-name_label_input_container input {
+      width: 46vw;
+    }
+  
+    #last-name_label_input-container {
+      /* border: 1px solid red; */
+      width: 46vw;
+      position: relative;
+      left: 0.5vw;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    #last_name_label {
+      /* border: 2px solid blue; */
+      width: 56vw;
+    }
+  
+    #last-name_label_input-container input {
+      width: 280vw;
+      left: 3vw;
+    }
+  
+    #company-name_label_input {
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 12vh;
+      left: 0.5vw;
+      top: 0;
+    }
+  
+    #company-name_label_input label {
+      /* border: 1px solid red; */
+      width: 42vw;
+      left: -1vw;
+      top: -6vh;
+    }
+  
+    #company-name_label_input input {
+      top: 2vh;
+      width: 51.5vw;
+      left: -0.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1160px) and (max-height: 750px) {
+    .PanierCoordonnees {
+      height: 300vh;
+    }
+  }
+  
+  @media screen and (width <= 1115px) and (max-height: 950px) {
+    #last_name_label {
+      /* border: 2px solid blue; */
+      width: 59vw;
+    }
+  
+    #company-name_label_input {
+      position: relative;
+      left: 0;
+    }
+    #company-name_label_input label {
+      /* border: 2px solid red; */
+      width: 44vw;
+    }
+  }
+  
+  @media screen and (width <= 1100px) {
+    #confirm_button button {
+      height: 85px;
+      width: 59%;
+      left: 4.9vw;
+      top: -60px;
+    }
+  }
+  
+  @media screen and (width <= 1122px) and (max-height: 750px) {
+    #first-name_label_input_container label {
+      width: 15vw;
+      position: relative;
+      left: 0;
+    }
+  
+    #last_name_label {
+      /* border: 2px solid blue; */
+      width: 59vw;
+    }
+  
+    #company-name_label_input {
+      position: relative;
+      top: -6vh;
+      left: -1vw;
+    }
+  
+    #company-name_label_input label {
+      font-size: 2.1em;
+      position: relative;
+      top: 3.5vh;
+      left: -6.2vw;
+    }
+  }
+  
+  @media screen and (width <= 1100px) and (max-height: 750px) {
+    #confirm_button button {
+      left: 3.5vw;
+      top: -13vh;
+    }
+  }
+  
+  @media screen and (width <= 1065px) {
+    #company-name_form_container label {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  @media screen and (width <= 1054px) {
+    #confirm_button button {
+      height: 85px;
+      width: 60.5%;
+      left: 4.7vw;
+      top: -30px;
+    }
+  }
+  
+  @media screen and (width <= 1035px) and (max-height: 950px) {
+    #street-name-number {
+      position: relative;
+      left: -11vw;
+    }
+  }
+  
+  @media screen and (width <= 930px) and (max-height: 950px) {
+    #billing_delivery-adress_form {
+      position: relative;
+      left: 11vw;
+    }
+  }
+  
+  @media screen and (width <= 909px) and (max-height: 950px) {
+    #company-name_label_input label {
+      width: 53vw;
+      font-size: 2.2em;
+    }
+  
+    #postal-code label,
+    #billing_phone-number label {
+      position: relative;
+      left: 2vw;
+      width: 22vw;
+    }
+  }
+  
+  @media screen and (width <= 861px) {
+    #confirm_button button {
+      height: 100px;
+      width: 71%;
+      left: 6vw;
+    }
+  }
+  
+  @media screen and (width <= 800px) and (max-height: 950px) {
+    #company-name_label_input label {
+      /* border: 2px solid red; */
+      width: 55vw;
+    }
+  }
+  
+  @media screen and (width <= 740px) {
+    #confirm_button button {
+      height: 100px;
+      width: 84%;
+      left: 7.8vw;
+      top: 10px;
+    }
+  }
+  
+  @media screen and (width <= 645px) and (max-height: 950px) {
+    .PanierCoordonnees {
+      height: 375vh;
+    }
+  
+    #mon-panier_coordonnees-commande {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #first-name_label_input_container {
+      width: 70vw;
+    }
+  
+    #first-name_label_input_container label {
+      /* border: 1px solid red; */
+      left: -1vw;
+      width: 50vw;
+    }
+  
+    #last-name_label_input-container {
+      width: 70vw;
+    }
+  
+    #last-name_label_input-container input {
+      width: 50vw;
+      left: -7.5vw;
+    }
+  
+    #company-name_label_input label {
+      width: 70vw;
+      letter-spacing: 1px;
+      font-size: 2em;
+    }
+  
+    .command_component_coordonnees {
+      position: relative;
+      left: 24vw;
+    }
+  
+    #confirm_button button {
+      left: 6.5vw;
+      top: -3vh;
+    }
+  }
+  
+  @media screen and (width <= 645px) and (max-height: 750px) {
+    .PanierCoordonnees {
+      height: 400vh;
+    }
+  
+    #confirm_button button {
+      top: -4vh;
+      left: 2vw;
+    }
+  }
+  
+  @media screen and (width <= 637px) and (max-height: 750px) {
+    .PanierCoordonnees {
+      height: 410vh;
+    }
+  }
+  
+  @media screen and (width <= 598px) and (max-height: 750px) {
+    #confirm_button button {
+      top: -1vh;
+      left: 2vw;
+    }
+  }
+  
+  @media screen and (width <= 595px) and (max-height: 950px) {
+    .panier_title-story_coordonees {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media screen and (width <= 595px) and (max-height: 750px) {
+    .PanierCoordonnees {
+      height: 430vh;
+    }
+  }
+  
+  @media screen and (width <= 575px) and (max-height: 950px) {
+    #social-status_title {
+      width: 50vw;
+    }
+  }
+  
+  @media screen and (width <= 537px) and (max-height: 950px) {
+    .PanierCoordonnees {
+      height: 420vh;
+    }
+  }
+  
+  @media screen and (width <= 527px) and (max-height: 950px) {
+    #social-status_title {
+      width: 53vw;
+    }
+  }
+  
+  

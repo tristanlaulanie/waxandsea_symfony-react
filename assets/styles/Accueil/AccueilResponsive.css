@@ -1,0 +1,35 @@
+@media screen and (width <= 960px) {
+    .container_card_produit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .banniere_pub {
+        position: relative;
+        bottom: 6em;
+    }
+    
+}
+
+@media screen and (width <= 720px) {
+    .banniere_pub {
+        position: relative;
+        right: 2em;
+    }
+}
+
+@media screen and (width <= 670px) {
+    .banniere_pub {
+        position: relative;
+        bottom: 6em;
+    }
+}
+
+@media screen and (width <= 606px) {
+    .banniere_pub {
+        position: relative;
+        bottom: 7em;
+    }
+}

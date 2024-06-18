@@ -1,0 +1,58 @@
+@media screen and (width<= 1440px) {
+    .section-description {
+        position: relative;
+        left: 1em;
+    }
+}
+
+@media screen and (width<= 1360px) {
+    .section-description {
+        position: relative;
+        left: 0.4em;
+    }
+}
+
+@media screen and (width<= 1290px) {
+    .section-description {
+        font-size: 45px;
+        width: 15em;
+    }
+}
+
+@media screen and (width<= 1160px) {
+    .section-description {
+        position: relative;
+        left: -0.4em;
+        font-size: 50px;
+        width: 13em;
+    }
+}
+
+@media screen and (width<= 1110px) {
+    .section-description {
+        width: 11em;
+        font-size: 48px;
+        left: 1em;
+    }
+}
+
+@media screen and (width<= 1010px) {
+    .section-description {
+        font-size: 38px;
+        /* border: 3px solid red; */
+    }
+}
+
+@media screen and (width<= 505px) {
+    .section-description {
+        position: relative;
+        left: -0.05em;
+    }
+}
+
+@media screen and (width<= 455px) {
+    .section-description {
+        position: relative;
+        left: -3em;
+    }
+}

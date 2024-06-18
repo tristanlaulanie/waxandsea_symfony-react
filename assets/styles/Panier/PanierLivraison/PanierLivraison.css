@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.PanierLivraison {
+  font-family: 'Amatic SC', cursive;
+  margin-top: 20vh;
+  height: 120vh;
+  width: 99.2vw;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+#panier_user-story {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+#panier_user-story h2 {
+  width: 25%;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+#panier-title-story,
+#coordonnees-title-story,
+#livraison-title-story {
+  border-bottom: 3px solid black;
+}
+
+#mon-panier_livraison-commande {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+}
+
+#colissimo_mondial-relay_container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-radio-colissimo,
+.select-radio_mondial-relay {
+  transform: scale(2);
+  position: relative;
+  top: 2vh;
+  right: 2vw;
+}
+
+#cube-icon {
+  font-size: 2vw;
+  position: relative;
+  top: 2.5vh;
+}
+
+#colissimo_section {
+  margin-top: 6vh;
+  border: 2px solid black;
+  width: 96%;
+  height: 38vh;
+}
+
+#colissimo_label {
+  position: relative;
+  left: 10vw;
+}
+
+#colissimo-title {
+  font-size: 2.3em;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+
+.delivery-titles {
+  font-weight: bold;
+}
+
+.free-delivery-price {
+  position: relative;
+  left: 42%;
+  bottom: 4vh;
+  font-size: 2em;
+}
+
+.delivery-title {
+  text-align: left;
+}
+
+.deliveries-infos {
+  position: relative;
+  left: 15%;
+  top: 1vh;
+}
+
+.delivery-adress {
+  position: relative;
+  top: -8vh;
+}
+
+#delivery-contact-infos {
+  font-size: 2.2em;
+  text-align: left;
+}
+
+#mondial-relay_section {
+  border: 2px solid black;
+  width: 96%;
+  height: 45vh;
+  margin-top: 6vh;
+}
+
+#mondial-relay_label {
+  position: relative;
+  left: 10vw;
+  top: 1vh;
+}
+
+.withdraw-title {
+  text-align: left;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+
+#withdraw-adress-infos {
+  text-align: left;
+  font-size: 2.2em;
+}
+
+#command_component {
+  position: relative;
+  top: -18vh;
+  right: 1vw;
+}
+
+#confirm_delivery button {
+  font-family: 'Amatic SC', cursive;
+  border: 3px solid black;
+  border-radius: 4px;
+  width: 12vw;
+  height: 6vh;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(1, 185, 148, 0.776);
+  position: relative;
+  left: 6vw;
+  top: -10vh;
+}
+
+#confirm_delivery button:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.8s;
+}

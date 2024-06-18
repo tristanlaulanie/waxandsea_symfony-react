@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: white;
+    margin-top: 15vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+.titre {
+    margin-top: 5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.contact_inputs {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+#name,
+#surname,
+#mail,
+#tel,
+#sujet
+ {
+    width: 30vw;
+    height: 3em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+
+#msg {
+    margin-top: 3em;
+    padding: 1.5em;
+    font-size: 1.5em;
+}
+
+.contact_inputs_row_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.contact_inputs_row_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.contact_input_row_3 {
+    margin-right: 53.5%;
+}
+
+.contact_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+#button_msg {
+    color: white;
+    background-color: black;
+    width: 8em;
+    height: 2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+#button_msg:hover {
+    background-color: rgb(139, 204, 40);
+    color: black;
+    cursor: pointer;
+}

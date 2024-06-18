@@ -1,0 +1,280 @@
+@media screen and (height <= 760px) {
+    .PanierLivraison {
+      height: 150vh;
+    }
+  
+    #command_component_delivery {
+      position: relative;
+      top: -30vh;
+      left: 2.5vw;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: 21vh;
+      left: -5vw;
+    }
+  
+    #colissimo_mondial-relay_container {
+      position: relative;
+      top: 8vh;
+    }
+  
+    #mondial-relay_section {
+      position: relative;
+      top: 12vh;
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (width <= 1920px) and (max-height: 920px) {
+    #confirm_delivery button {
+      position: relative;
+      top: -11vh;
+      left: -4.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1910px) and (max-height: 920px) {
+    #confirm_delivery button {
+      position: relative;
+      top: -14vh;
+      left: 5.9vw;
+    }
+  }
+  
+  @media screen and (width <= 1600px) and (max-height: 900px) {
+    #confirm_delivery button {
+      position: relative;
+      top: -10vh;
+      left: -2.5vw;
+    }
+  }
+  
+  @media screen and (width <= 1530px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 160vh;
+    }
+  
+    #command_component_delivery {
+      position: relative;
+      top: 0;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -6vh;
+      left: -2.5vw;
+    }
+  
+    #colissimo_section {
+      height: 50vh;
+    }
+  }
+  
+  @media screen and (width <= 1480px) and (max-height: 920px) {
+    #confirm_delivery button {
+      position: relative;
+      top: -11vh;
+      left: -2.6vw;
+    }
+  }
+  
+  @media screen and (width <= 1480px) and (max-height: 760px) {
+    #confirm_delivery button {
+      position: relative;
+      top: -5.5vh;
+      left: -2.6vw;
+    }
+  }
+  
+  @media screen and (width <= 1255px) and (max-height: 950px) {
+    #confirm_delivery button {
+      height: 7vh;
+    }
+  }
+  
+  @media screen and (width <= 1252px) and (max-height: 760px) {
+    #confirm_delivery button {
+      height: 9vh;
+    }
+  }
+  
+  @media screen and (width <= 840px) and (max-height: 950px) {
+    #withdraw-adress-infos {
+      font-size: 2em;
+      position: relative;
+      top: 3vh;
+    }
+  }
+  
+  @media screen and (width <= 785px) and (max-height: 950px) {
+    #withdraw-adress-infos {
+      font-size: 1.8em;
+      position: relative;
+      top: 4vh;
+    }
+  
+    #confirm_delivery button {
+      width: 21vw;
+      left: 2.2vw;
+    }
+  }
+  
+  @media screen and (width <= 785px) and (max-height: 760px) {
+    #confirm_delivery button {
+      left: -3vw;
+    }
+  }
+  
+  @media screen and (width <= 770px) and (max-height: 950px) {
+    .PanierLivraison {
+      height: 180vh;
+    }
+  
+    #mon-panier_livraison-commande {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #colissimo_mondial-relay_container {
+      position: relative;
+      left: -4vw;
+    }
+  
+    #colissimo_section {
+      width: 120%;
+    }
+  
+    #mondial-relay_section {
+      width: 120%;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -8vh;
+      left: 2vw;
+    }
+  }
+  
+  @media screen and (width <= 770px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 230vh;
+    }
+  
+    #command_component_delivery {
+      position: relative;
+      top: 25vh;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -5vh;
+      left: -3vw;
+    }
+  }
+  
+  @media screen and (width <= 738px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 235vh;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -1vh;
+      left: -3vw;
+    }
+  }
+  
+  @media screen and (width <= 690px) and (max-height: 950px) {
+    .PanierLivraison {
+      height: 190vh;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -4vh;
+      left: 2.5vw;
+      height: 9vh;
+      width: 24vw;
+    }
+  }
+  
+  @media screen and (width <= 690px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 240vh;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: 2vh;
+      left: -2.5vw;
+    }
+  
+  }
+  
+  @media screen and (width <= 630px) and (max-height: 950px) {
+    #panier-story_style,
+    #coordonnees_style,
+    .livraison-title-story {
+      font-size: 0.8em;
+    }
+  }
+  
+  @media screen and (width <= 605px) and (max-height: 950px) {
+    #colissimo_mondial-relay_container {
+      width: 85%;
+      position: relative;
+      left: -6vw;
+    }
+  }
+  
+  @media screen and (width <= 605px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 245vh;
+    }
+    
+    #confirm_delivery button {
+      position: relative;
+      top: 4vh;
+    }
+  }
+  
+  @media screen and (width <= 530px) and (max-height: 950px) {
+    #colissimo_mondial-relay_container {
+      width: 90%;
+      position: relative;
+      left: -8vw;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: -1vh;
+      left: 2.5vw;
+      height: 9vh;
+      width: 24vw;
+    }
+  
+    #panier-story_style,
+    #coordonnees_style {
+      font-size: 0.8em;
+    }
+  
+    #panier_user-story h2 {
+      font-size: 1.6em;
+    }
+  }
+  
+  @media screen and (width <= 530px) and (max-height: 760px) {
+    .PanierLivraison {
+      height: 250vh;
+    }
+  
+    #confirm_delivery button {
+      position: relative;
+      top: 5vh;
+      left: -2.5vw;
+    }
+  }

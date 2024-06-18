@@ -1,0 +1,70 @@
+@media screen and (width <= 900px){
+    #contact-link {
+        position: relative;
+        right: 2em;
+    }
+}
+
+@media screen and (width <= 800px){
+    #contact-link {
+        position: relative;
+        right: 3.4em;
+    }
+
+    #policie-link {
+        position: relative;
+        left: 2.5em;
+    }
+}
+
+@media screen and (width <= 730px) {
+    #contact-link {
+        position: relative;
+        right: 5em;
+    }
+
+    #policie-link {
+        position: relative;
+        left: 3.5em;
+    }
+}
+
+@media screen and (width <= 650px) {
+
+    #policie-link {
+        position: relative;
+        left: 5em;
+    }
+
+    #legal-mentions {
+        position: relative;
+        right: 3.5em;
+    }
+
+    #contact-link {
+        position: relative;
+        right: 8.5em;
+    }
+
+    #rights-link {
+        position: relative;
+        right: 4em;
+    }
+}
+
+@media screen and (width <= 540px) {
+    #policie-link {
+        position: relative;
+        left: 6.1em;
+    }
+
+    #contact-link {
+        position: relative;
+        right: 9.5em;
+    }
+
+    #copyright {
+        position: relative;
+        left: 1em;
+    }
+}

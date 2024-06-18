@@ -1,0 +1,468 @@
+@media screen and (max-height: 1530px) {
+  .BoutiqueAccessoire {
+    height: 230vh;
+  }
+
+  #product_main-container {
+    position: relative;
+    top: -10vh;
+  }
+
+  #product_images {
+    height: 70.8vh;
+    width: 60vw;
+  }
+
+  #product_description {
+    height: 85vh;
+  }
+
+  #product_description_container {
+    height: 75vh;
+  }
+
+  #product_colors {
+    position: relative;
+    left: 2vw;
+    top: -20vh;
+  }
+
+  #product_sizes {
+    position: relative;
+    left: 1.5vw;
+    top: -11vh;
+  }
+
+  #sizes-select {
+    position: relative;
+    top: -2vh;
+    left: 2.2vw;
+    width: 230px;
+  }
+
+  #product_quantity {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -4vw;
+  }
+
+  #product_quantity_input {
+    padding: 20px;
+  }
+
+  #accessoire_product_add-to-cart p {
+    font-weight: bolder;
+    position: relative;
+    left: 48vw;
+    top: 8vh;
+    font-size: 2.5em;
+  }
+
+  #accessoire_product_add-to-cart_button {
+    height: 3em;
+    position: relative;
+    left: 48vw;
+    top: 12vh;
+  }
+}
+
+@media screen and (max-height: 960px) {
+  #product_sizes {
+    padding-bottom: 14vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1507px) {
+  #product_add-to-cart p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1507px) {
+  #product_add-to-cart p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1300px) {
+  #product_description {
+    height: 95vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1300px) {
+  #product_description {
+    height: 95vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1200px) {
+  .BoutiqueAccessoire {
+    height: 320vh;
+  }
+  #product_main_title {
+    top: 22vh;
+  }
+  #product_description {
+    height: 103vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1200px) {
+  .BoutiqueAccessoire {
+    height: 320vh;
+  }
+
+  #product_main_title {
+    top: 22vh;
+  }
+
+  #product_description {
+    height: 103vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1156px) {
+  #product_description {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1156px) {
+  #product_description {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1100px) {
+  #product_description {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1100px) {
+  #product_description {
+    height: 120vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 1060px) {
+  .BoutiqueAccessoire {
+    height: 335vh;
+  }
+
+  #product_description {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 1060px) {
+  .BoutiqueAccessoire {
+    height: 335vh;
+  }
+
+  #product_description {
+    height: 130vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 980px) {
+  #product_description {
+    height: 140vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 980px) {
+  #product_description {
+    height: 140vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 966px) {
+  #product_description {
+    height: 155vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 966px) {
+  #product_description {
+    height: 155vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 960px) {
+  .BoutiqueAccessoire {
+    height: 355vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 960px) {
+  .BoutiqueAccessoire {
+    height: 355vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 935px) {
+  .BoutiqueAccessoire {
+    height: 370vh;
+  }
+
+  #product_description {
+    height: 165vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 935px) {
+  .BoutiqueAccessoire {
+    height: 370vh;
+  }
+
+  #product_description {
+    height: 165vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 915px) {
+  #product_description {
+    height: 175vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 915px) {
+  #product_description {
+    height: 175vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 814px) {
+  .BoutiqueAccessoire {
+    height: 390vh;
+  }
+  #product_description {
+    height: 185vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 814px) {
+  .BoutiqueAccessoire {
+    height: 390vh;
+  }
+  #product_description {
+    height: 185vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 800px) {
+  #product_description {
+    height: 195vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 800px) {
+  #product_description {
+    height: 195vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 700px) {
+  .BoutiqueAccessoire {
+    height: 410vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 700px) {
+  .BoutiqueAccessoire {
+    height: 410vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 610px) {
+  #product_images {
+    position: relative;
+    left: 8vw;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 610px) {
+  #product_images {
+    position: relative;
+    left: 8vw;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 558px) {
+  #product_description {
+    height: 205vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 558px) {
+  #product_description {
+    height: 205vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 535px) {
+  .BoutiqueAccessoire {
+    height: 430vh;
+  }
+  #product_description {
+    height: 215vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 535px) {
+  .BoutiqueAccessoire {
+    height: 430vh;
+  }
+  #product_description {
+    height: 215vh;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 530px) {
+  #product_name_price_description {
+    position: relative;
+    left: -5vw;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 530px) {
+  #product_name_price_description {
+    position: relative;
+    left: -5vw;
+  }
+}
+
+@media screen and (max-height: 1920px) and (width <= 495px) {
+  #product_description {
+    height: 225vh;
+  }
+}
+
+@media screen and (max-height: 760px) and (width <= 495px) {
+  #product_description {
+    height: 225vh;
+  }
+}
+
+@media screen and (max-height: 730px) {
+  #product_description {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  #product_description {
+    height: 75vh;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  #product_description {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-height: 620px) {
+  #product_description {
+    height: 85vh;
+  }
+}
+
+@media screen and (max-height: 565px) {
+  #product_description {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  #product_description {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 525px) {
+  #product_description {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  #product_description {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-height: 475px) {
+  #product_description {
+    height: 115vh;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  #product_description {
+    height: 125vh;
+  }
+}
+
+@media screen and (max-height: 380px) {
+  #product_description {
+    height: 135vh;
+  }
+}
+
+@media screen and (max-height: 355px) {
+  #product_description {
+    height: 145vh;
+  }
+}
+
+@media screen and (max-height: 330px) {
+  #product_description {
+    height: 155vh;
+  }
+}
+
+@media screen and (max-height: 310px) {
+  #product_description {
+    height: 165vh;
+  }
+}
+
+@media screen and (max-height: 290px) {
+  #product_description {
+    height: 175vh;
+  }
+}
+
+@media screen and (max-height: 275px) {
+  #product_description {
+    height: 190vh;
+  }
+}
+
+@media screen and (max-height: 250px) {
+  #product_description {
+    height: 205vh;
+  }
+}
+
+@media screen and (max-height: 235px) {
+  #product_description {
+    height: 220vh;
+  }
+}
+
+@media screen and (max-height: 220px) {
+  #product_description {
+    height: 235vh;
+  }
+}
+
+@media screen and (max-height: 205px) {
+  #product_description {
+    height: 270vh;
+  }
+}

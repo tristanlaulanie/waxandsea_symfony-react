@@ -1,0 +1,72 @@
+@media screen and (width <= 1400px){
+    .panier-frame img {
+        position: relative;
+        left: -3em;
+    }
+
+    #button {
+        position: relative;
+        left: 1em;
+    }
+    
+}
+
+@media screen and (width <= 1060px) {
+    .panier-frame {
+        height: 43vh;
+    }
+}
+
+@media screen and (width <= 1020px) {
+    #button {
+        position: relative;
+        left: 0.2em;
+    }
+}
+
+@media screen and (width <= 900px) {
+    .panier-frame img {
+        position: relative;
+        left: -2em;
+    }
+}
+
+@media screen and (width <= 790px) {
+    .panier-frame img {
+        position: relative;
+        left: -0.5em;
+    }
+
+    .prix, .quantite{
+        font-size: 40px;
+        position: relative;
+        left: 0.8em;
+    }
+}
+
+@media screen and (width <= 750px) {
+    .panier-frame {
+        height: 35vh;
+    }
+
+    #button {
+        position: relative;
+        top: 2.2em;
+        left: 0.8em;
+        font-size: 35px;
+    }
+}
+
+@media screen and (width <= 685px) {
+    #button {
+        position: relative;
+        top: 3em;
+        left: 0.1em;
+        font-size: 30px;
+    }
+
+    .panier-frame img {
+        position: relative;
+        left: 1em;
+    }
+}

@@ -1,0 +1,686 @@
+/* HEIGHT */
+
+@media screen and (height <= 960px) {
+    .MaCommande {
+      position: relative;
+      top: 20vh;
+    }
+  
+    #mon-panier_commande {
+      position: relative;
+      top: 35vh;
+    }
+  
+    #valid_button button {
+      position: relative;
+      margin-top: -10cm;
+    }
+  }
+  
+  @media screen and (height <= 760px) {
+    #mon-panier_commande {
+      position: relative;
+      top: 33vh;
+    }
+  
+    #valid_button button {
+      position: relative;
+      margin-top: -10cm;
+    }
+  
+  }
+  /* WIDTH */
+  
+  @media screen and (width <= 1908px) {
+    #shipping-fees_title {
+      height: 4vh;
+      width: 8vw;
+    }
+  }
+  
+  @media screen and (width <= 1805px) {
+    #purchases-amout_title {
+      position: relative;
+      right: 1.5vw;
+    }
+  
+    #commande_total-achats {
+      width: 100%;
+      position: relative;
+      left: 8%;
+    }
+  
+    .total_fees_command {
+      position: relative;
+      right: 1.5vw;
+    }
+  
+    .total_purchases {
+      position: relative;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      left: 6vw;
+    }
+  }
+  
+  @media screen and (width <= 1760px) {
+    #purchases-amout_title {
+      position: relative;
+      left: 0.5vw;
+    }
+  
+    #shipping-fees_title {
+      position: relative;
+      left: 2.5vw;
+    }
+  
+    #commande_total {
+      display: inline-block;
+      height: 4.5vh;
+      position: relative;
+      left: 3vw;
+      width: 21vw;
+    }
+  
+    #total-command_title {
+      position: relative;
+      left: -0;
+    }
+  
+    #total-command_amount {
+      position: relative;
+      left: 78%;
+      bottom: 4vh;
+      /* border: 2px solid red; */
+      width: 5vw;
+    }
+  
+    #total_tva_command {
+      position: relative;
+      top: -1vh;
+    }
+  
+    #commande_tva {
+      display: inline-block;
+      height: 4.5vh;
+      position: relative;
+      bottom: 4vh;
+      left: 3vw;
+      width: 20vw;
+    }
+  
+    #tva-title {
+      position: relative;
+      left: 0;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+  
+    #tva-amount {
+      /* border: 2px dotted red; */
+      display: inline-block;
+      position: relative;
+      right: -60%;
+      bottom: 0;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      bottom: 4vh;
+      left: 8.2vw;
+    }
+  }
+  
+  @media screen and (width <= 1750px) {
+    .fees_price {
+      display: inline-block;
+      position: relative;
+      left: 20%;
+      bottom: 0;
+      /* border: 2px dotted red; */
+    }
+  
+    .total_purchases {
+      position: relative;
+      left: 0vw;
+    }
+  
+    .total_fees_command {
+      display: inline-block;
+      width: 8vw;
+    }
+  
+    #shipping-fees_title {
+      display: inline-block;
+      /* border: 4px solid red; */
+      width: 9vw;
+      position: relative;
+      left: 0;
+    }
+  
+    #commande_frais-de-ports {
+      display: inline-block;
+      width: 22vw;
+      position: relative;
+      left: 2.5vw;
+    }
+  
+    #free-shipping {
+      position: relative;
+      bottom: 0;
+      left: 2vw;
+    }
+  
+    #total_tva_command {
+      position: relative;
+      bottom: 3.5vh;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      bottom: 7.5vh;
+    }
+  }
+  
+  @media screen and (width <= 1600px) {
+    #achats_panier_buttons button {
+      position: relative;
+      left: 9.2vw;
+    }
+  }
+  
+  @media screen and (width <= 1510px) {
+    .fees_price {
+      display: inline-block;
+      width: 9vw;
+      position: relative;
+      left: 6vw;
+      bottom: 5vh;
+      /* border: 2px dotted red; */
+    }
+  }
+  
+  @media screen and (width <= 1490px) {
+    #total_tva_command {
+      position: relative;
+      bottom: 7vh;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      bottom: 12vh;
+      right: 1vw;
+    }
+  }
+  
+  @media screen and (width <= 1455px) {
+    .total_purchases {
+      width: 10vw;
+      /* border: 3px solid rgba(251, 0, 247, 0.251); */
+      position: relative;
+      left: 8.1vw;
+      bottom: 5vh;
+    }
+  
+    #commande_total-achats {
+      display: inline-block;
+      /* border: 3px solid blue; */
+      width: 100%;
+      position: relative;
+      left: -1vw;
+    }
+  
+    #commande_frais-de-ports {
+      position: relative;
+      bottom: 5vh;
+    }
+  
+    #purchases-amout_title {
+      /* border: 2px dashed red; */
+      display: inline-block;
+      width: 12vw;
+      font-size: 28px;
+      position: relative;
+      left: -3vw;
+    }
+  
+    #shipping-fees_title {
+      position: relative;
+      left: -6.5vw;
+    }
+  
+    .fees_price {
+      position: relative;
+      bottom: 5vh;
+    }
+  
+    #free-shipping {
+      position: relative;
+      bottom: 10vh;
+      left: 0.5vw;
+    }
+  
+    #commande_total {
+      position: relative;
+      bottom: 5vh;
+    }
+  
+    #commande_tva {
+      position: relative;
+      bottom: 9vh;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      bottom: 17vh;
+    }
+  }
+  
+  @media screen and (width <= 1390px) {
+    #purchases-amout_title {
+      /* border: 2px dashed red; */
+      width: 13vw;
+    }
+  }
+  
+  @media screen and (width <= 1342px) {
+    .fees_price {
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (width <= 1290px) {
+    #achats_panier_buttons button {
+      position: relative;
+      bottom: 18vh;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (width <= 1280px) {
+    #purchases-amout_title {
+      width: 14vw;
+    }
+  }
+  
+  @media screen and (width <= 1230px) {
+    #command_texts {
+      /* border: 2px dotted red; */
+      font-size: 0.9em;
+      transition: 0.5s;
+      height: 14vh;
+      width: 105%;
+      position: relative;
+      bottom: 1vh;
+    }
+  
+    #purchases-amout_title {
+      font-size: 1em;
+      position: relative;
+      bottom: 1vh;
+    }
+  
+    #commande_total-achats {
+      margin-bottom: 3vh;
+    }
+  
+    .total_purchases {
+      position: relative;
+      bottom: 4.5vh;
+    }
+  
+    #shipping-fees_title {
+      width: 13vw;
+      position: relative;
+      left: -8vw;
+    }
+  
+    .fees_price {
+      position: relative;
+      bottom: 3.5vh;
+      left: 5vw;
+      margin-bottom: 2vh;
+      transition: 0.5s;
+    }
+  
+    #free-shipping {
+      margin-bottom: 2vh;
+    }
+  
+    #achats_panier_buttons button {
+      position: relative;
+      left: 10vw;
+    }
+  }
+  
+  @media screen and (width <= 1101px) {
+    #command_texts {
+      font-size: 0.8em;
+      height: 15vh;
+    }
+  
+    #purchases-amout_title {
+      /* border: 2px dotted red; */
+      width: 13vw;
+    }
+  
+    #achats_panier_buttons button {
+      padding-top: 0.4vh;
+      padding-bottom: 0.4vh;
+      padding-left: 0.2vw;
+      padding-right: 0.2vw;
+      height: 7vh;
+      width: 15vw;
+      font-size: 1em;
+    }
+  }
+  
+  @media screen and (width <= 1020px) {
+    #achats_panier_buttons button {
+      width: 16vw;
+    }
+  }
+  
+  @media screen and (width <= 1054px) {
+    #commande_total-achats {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2vh;
+    }
+  
+    #purchases-amout_title {
+      width: 14vw;
+      position: relative;
+      left: 4vw;
+    }
+  
+    .total_purchases {
+      position: relative;
+      left: -4vw;
+    }
+  }
+  
+  @media screen and (width <= 979px) {
+    #purchases-amout_title {
+      width: 15vw;
+    }
+  }
+  
+  @media screen and (width <= 955px) {
+    #achats_panier_buttons button {
+      width: 18vw;
+    }
+  }
+  
+  @media screen and (width <= 965px) {
+    #total-command_amount {
+      width: 8vw;
+    }
+  }
+  
+  @media screen and (width <= 932px) {
+    .total_purchases {
+      width: 11vw;
+    }
+  
+    .fees_price {
+      width: 11vw;
+    }
+  
+    #commande_total {
+      margin-bottom: 3vh;
+    }
+  
+    #total-command_amount {
+      width: 6vw;
+    }
+  }
+  
+  @media screen and (width <= 914px) {
+    #purchases-amout_title {
+      width: 16vw;
+    }
+  }
+  
+  @media screen and (width <= 857px) {
+    #purchases-amout_title {
+      width: 17vw;
+    }
+  
+    .total_purchases {
+      left: -3vw;
+      width: 13vw;
+    }
+  }
+  
+  @media screen and (width <= 857px) {
+    .fees_price {
+      width: 12vw;
+    }
+  }
+  
+  @media screen and (width <= 850px) {
+    #achats_panier_buttons button {
+      width: 19vw;
+    }
+  }
+  
+  @media screen and (width <= 806px) {
+    #purchases-amout_title {
+      width: 18vw;
+    }
+  
+    #total-command_amount {
+      width: 8vw;
+    }
+  
+    .total_purchases {
+      width: 14vw;
+    }
+  
+    #achats_panier_buttons button {
+      width: 21vw;
+    }
+  }
+  
+  @media screen and (width <= 778px) {
+    .fees_price {
+      width: 14vw;
+      position: relative;
+      top: -30px;
+      left: 3vw;
+    }
+  
+    #total-command_amount {
+      width: 8vw;
+    }
+  }
+  
+  @media screen and (width <= 760px) {
+    #purchases-amout_title {
+      width: 19vw;
+    }
+  }
+  
+  @media screen and (width <= 790px) and (max-height: 760px) {
+    #achats_panier_buttons {
+      position: relative;
+      left: -8vw;
+    }
+  }
+  
+  @media screen and (width <= 740px) {
+    #shipping-fees_title {
+      position: relative;
+      margin-top: 2vh;
+      bottom: 2vh;
+      left: -8vw;
+    }
+  
+    .fees_price {
+      position: relative;
+      top: -2vh;
+      left: -8vw;
+      margin-bottom: 35px;
+    }
+  
+    #commande_frais-de-ports {
+      position: relative;
+      left: 12.5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (width <= 726px) {
+    #achats_panier_buttons button {
+      width: 22vw;
+    }
+  }
+  
+  @media screen and (width <= 721px) {
+    #purchases-amout_title {
+      width: 21vw;
+      position: relative;
+      left: 2.5vw;
+    }
+  }
+  
+  @media screen and (width <= 690px) {
+    #achats_panier_buttons button {
+      height: 10vh;
+    }
+  }
+  
+  @media screen and (width <= 666px) {
+    .total_purchases {
+      width: 16vw;
+    }
+  
+    .fees_price {
+      width: 16vw;
+    }
+  
+    #free-shipping {
+      top: -11vh;
+    }
+  }
+  
+  @media screen and (width <= 652px) {
+    #purchases-amout_title {
+      width: 22vw;
+    }
+  }
+  
+  @media screen and (width <= 625px) {
+    #purchases-amout_title {
+      width: 23vw;
+    }
+  }
+  
+  @media screen and (width <= 602px) {
+    #purchases-amout_title {
+      width: 24vw;
+    }
+  
+    #total-command_amount {
+      width: 9vw;
+    }
+  
+    #tva-title {
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (width <= 595px) {
+    #purchases-amout_title {
+      width: 24vw;
+    }
+  
+    #total-command_amount {
+      width: 9vw;
+    }
+  
+    #tva-title {
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (width <= 589px) {
+    #shipping-fees_title {
+      text-align: left;
+    }
+  
+    #purchases-amout_title {
+      width: 24vw;
+    }
+  
+    #total-command_amount {
+      width: 9vw;
+    }
+  
+    #tva-title {
+      width: 10vw;
+    }
+  }
+  
+  @media screen and (width <= 582px) {
+    .total_purchases {
+      width: 18vw;
+    }
+  
+    .fees_price {
+      width: 20vw;
+    }
+  }
+  
+  @media screen and (width <= 572px) {
+    #purchases-amout_title {
+      width: 25vw;
+    }
+  
+    #total-command_amount {
+      width: 10vw;
+    }
+  
+    #tva-title {
+      width: 11vw;
+    }
+  }
+  
+  @media screen and (width <= 550px) {
+    #purchases-amout_title {
+      width: 26vw;
+    }
+  }
+  
+  @media screen and (width <= 534px) {
+    #shipping-fees_title {
+      text-align: left;
+      width: 18vw;
+      padding: 0;
+      /* border: 1px solid red; */
+  }
+  }
+  
+  @media screen and (width <= 527px) {
+    #purchases-amout_title {
+      width: 27vw;
+    }
+  }
+  
+  @media screen and (width <= 517px) {
+    .total_purchases {
+      width: 29.5vw;
+    }
+  }
+  
+  @media screen and (width <= 507px) {
+    #purchases-amout_title {
+      width: 28vw;
+    }
+  }

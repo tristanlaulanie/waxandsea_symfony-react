@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.MentionsLegales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    background-color: white;
+    margin-top: 15vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+.MentionsLegales h1 {
+    font-size: 3em;
+}
+
+.MentionsLegales p {
+    font-size: 2em;
+}

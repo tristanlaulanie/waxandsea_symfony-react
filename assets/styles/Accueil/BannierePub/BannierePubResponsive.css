@@ -1,0 +1,122 @@
+@media screen and (width<=1420px){
+    .banner-model p {
+        right: 4em;
+        bottom: 10.5em;
+    }
+    
+}
+
+@media screen and (width<=1280px){
+    .banner-model p {
+        right: 4em;
+        bottom: 9.6em;
+    }
+}
+
+@media screen and (width<=1220px){
+    .banner-model p {
+        right: 3em;
+        bottom: 9em;
+    }
+}
+
+@media screen and (width<=1105px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.5em;
+    }
+}
+
+@media screen and (width<=1105px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.5em;
+    }
+}
+
+@media screen and (width<=1105px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.5em;
+    }
+}
+
+@media screen and (width<=1040px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.7em;
+        font-size: 2.6em;
+    }
+}
+
+@media screen and (width<=935px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.6em;
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (width<=860px){
+    .banner-model p {
+        right: 2.5em;
+        bottom: 8.3em;
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (width<=820px){
+    .banner-model p {
+        right: 2.2em;
+        bottom: 8.3em;
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (width<=760px){
+    .banner-model p {
+        right: 2.2em;
+        bottom: 8.1em;
+        font-size: 2em;
+    }
+}
+
+@media screen and (width<=690px){
+    .banner-model p {
+        right: 2em;
+        bottom: 8.2em;
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (width<=630px){
+    .banner-model p {
+        right: 2em;
+        bottom: 8.8em;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (width<=580px){
+    .banner-model p {
+        right: 2em;
+        bottom: 8.7em;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (width<=550px){
+    .banner-model p {
+        right: 1.8em;
+        bottom: 9.5em;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (width<=550px){
+    .banner-model p {
+        right: 1.7em;
+        bottom: 8.7em;
+        font-size: 1.3em;
+    }
+}

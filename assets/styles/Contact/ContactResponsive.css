@@ -1,0 +1,13 @@
+@media screen and (width <= 715px) {
+    #sujet {
+        position: relative;
+        width: 32vw;
+    }
+}
+
+@media screen and (width <= 660px) {
+    #msg {
+        position: relative;
+        width: 75vw;
+    }
+}

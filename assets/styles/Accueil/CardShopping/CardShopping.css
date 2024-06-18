@@ -1,0 +1,32 @@
+.product-card {
+    border: 1px solid #aeaeae;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+}
+
+.product-card img {
+    width: 16vw;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.7em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.product-card button p {
+    margin: 0;
+    top: 0em;
+}

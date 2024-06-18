@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Enregistrement {
+    margin-top: 40vh;
+    padding-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    color: red; /* Rend le texte en rouge */
+    margin-top: 5px; /* Ajoute un peu d'espace au-dessus du message */
+    font-size: 0.6em; /* Réduit la taille du texte */;
+  }
+  
+
+form label input {
+    font-size: 30px;
+    height: 8vh;
+    width: 40vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+#password-field {
+    margin-top: 30px;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+#signin-button {
+    color: white;
+    background-color: black;
+    width: 8em;
+    height: 2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+#signin-button:hover {
+    background-color: rgb(139, 204, 40);
+    color: black;
+    cursor: pointer;
+    border: 2px solid red;
+}

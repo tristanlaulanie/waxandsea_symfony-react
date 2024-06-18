@@ -1,0 +1,214 @@
+/* HEADER */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+header {
+    font-family: 'Amatic SC', cursive;
+}
+
+.first-header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7.5em;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0px 5px 5px;
+    background-color: rgba(14, 13, 13, 0.942);
+}
+
+.first-header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6vw;
+    gap: 1.5vw;
+    position: relative;
+    right: 4vw;
+}
+
+.social-div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -8vw;
+}
+
+.social-icon-header {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.logo-enveloppe {
+    color: whitesmoke;
+    font-size: 2.5em;
+    margin-left: 0.5em;
+}
+
+.logo-enveloppe:hover {
+    color: #f5c869;
+    cursor: pointer;
+}
+
+.first-header-center {
+    position: relative;
+    left: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-header-center img {
+    width: 70px;
+    position: relative;
+}
+
+.header-logo-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1em;
+    gap: 1.5em;
+    list-style: none;
+    position: relative;
+    right: 5em;
+}
+
+.header-logo-links li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: whitesmoke;
+    position: relative;
+    right: 6em;
+}
+
+.header-logo-links li a:hover {
+    color: #f5c869;
+    cursor: pointer;
+}
+
+.header-logo-links img {
+    margin: 0 8em;
+    position: relative;
+    right: 12em;
+}
+
+.header-logo-links-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    position: relative;
+}
+
+.nav-connexion {
+    position: relative;
+    left: 3em;
+}
+
+#logo-waxandsea-header {
+    position: relative;
+    right: 8em;
+}
+
+#first-header-right_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dashed lightpink; */
+    width: 38vw;
+    position: relative;
+    padding-right: 8vw;
+}
+
+.first-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    position: relative;
+    left: 2em;
+    /* border: 2px dashed yellow; */
+    width: 40%;
+    padding: 20px;
+}
+
+#sur-mesure_title {
+    margin: 0;
+}
+
+#shop_title {
+    position: relative;
+    left: 4vw;
+}
+
+.first-header-right i {
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+.first-header-right p {
+    color: whitesmoke;
+    margin-left: 2em;
+} 
+
+.first-header-right p a {
+    color: whitesmoke;
+    text-decoration: none;
+} 
+
+.first-header-right p a:hover {
+    color: #f5c869;
+    cursor: pointer;
+}
+
+#cart_payment_signup_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-panier {
+    color: whitesmoke;
+}
+
+.nav-contact-histoire {
+    display: flex;
+    gap: 6em;
+}
+
+#cart_title {
+    display: flex;
+    gap: 13px;
+    position: relative;
+    left: 70px;
+}
+
+#payment_title {
+    position: relative;
+    left: 80px;
+}
+
+#payment_title:hover {
+    cursor: pointer
+}
+
+#signup_title {
+    position: relative;
+    left: 45px;
+}
+
+.social-div {
+    position: relative;
+    right: 2em;
+}

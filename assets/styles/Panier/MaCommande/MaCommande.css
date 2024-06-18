@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.MaCommande {
+    position: relative;
+    top: -20em;
+    left: -2vw;
+}
+
+#mon-panier_commande {
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -3vw;
+    top: 38vh;
+    /* border: 2px solid blue; */
+}
+
+#mon-panier_commande h3 {
+    border-bottom: 4px solid black;
+    width: 20vw;
+    font-weight: bold;
+    position: relative;
+    left: 1vw;
+    font-size: 32px;
+}
+
+#mon-panier_commande section {
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 48vh;
+    width: 85%;
+    font-size: 1.8em;
+}
+
+#commande_total-achats {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-bottom: 1vh;
+    width: 20vw;
+}
+
+#commande_frais-de-ports {
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    margin-bottom: 1vh;
+    width: 22vw;
+
+}
+
+.fees_price {
+    position: sticky;
+    margin-left: 1.1vw;
+}
+
+#commande_total {
+    display: flex;
+    flex-direction: row;
+    gap: 13.5vw;
+    margin-top: 1vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+#commande_tva {
+    display: flex;
+    flex-direction: row;
+    gap: 14vw;
+    width: 20vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+#tva-title {
+    /* border: 2px solid red; */
+    height: 5vh;
+    width: 5vw;
+}
+
+#tva-amount {
+    /* border: 2px solid red; */
+    width: 8vw;
+}
+
+#achats_panier_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 4vh;
+    position: relative;
+    top: 4vh;
+    right: 3vw;
+}
+
+#achats_panier_buttons button {
+    font-family: 'Amatic SC', cursive;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 12vw;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 185, 148, 0.776);
+    transition: 0.5s;
+    position: relative;
+    left: 5vw;
+    bottom: 2vh;  
+}
+
+#achats_panier_buttons button:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.8s;
+}

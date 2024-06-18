@@ -1,0 +1,22 @@
+.section-description {
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    bottom: 1em;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 2px;
+    opacity: 0.8;
+    padding: 0.5em;
+    width: 15em;
+    height: 11em;
+    font-family: 'Amatic SC', cursive;
+}
+
+p {
+    position: relative;
+}

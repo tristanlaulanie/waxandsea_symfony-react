@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.PanierCoordonnees {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 20vh;
+    height: 250vh;
+    width: 99.2vw;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#mon-panier_coordonnees-commande {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: center;
+}
+
+form {
+    /* border: 3px solid red; */
+    position: relative;
+    top: 20px;
+    right: -0.5%;
+}
+
+form input {
+    padding: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+#social-status_title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    right: 35%;
+}
+
+#panier_user-story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+#panier_user-story h2 {
+    width: 25%;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#panier-title-story,
+#coordonnees-title-story {
+    border-bottom: 3px solid black;
+}
+
+.user-story-titles {
+    border-bottom: 5px dotted grey;
+    margin-left: 5px;
+}
+
+#firstname-lastname_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5vw;
+    margin-top: 4vh;
+    position: relative;
+    right: 0.5vw;
+}
+
+#firstname-lastname_form label {
+    font-size: 2.5em;
+}
+
+#company-name_form {
+    position: relative;
+    right: 27.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#company-name_form label {
+    font-size: 2.5em;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    letter-spacing: 3px;
+    position: relative;
+    left: 0;
+}
+
+#company-name_form input {
+    /* width: 222%; */
+    width: 50vw;
+    position: relative;
+    left: 61%;
+}
+
+#billing-adress_title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    right: 35%;
+}
+
+#billing-form {
+    margin-top: 5vh;
+    position: relative;
+    left: 8vw;
+}
+
+#billing-adress_country {
+    font-size: 2.5em;
+    position: relative;
+    right: 76%;
+    margin-top: 3vh;
+}
+
+#billing-adress_country strong {
+    font-weight: bold;
+}
+
+#street-name-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 4vh;
+    margin-bottom: 4vh;
+    position: relative;
+    right: 28%;
+}
+
+#street-name-number label {
+    font-size: 2.5em;
+    position: relative;
+    right: 2.5vw;
+    margin-top: 2vh;
+}
+
+#street-name-number input {
+    width: 56%;
+    position: relative;
+    left: -6%;
+}
+
+#building::placeholder {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    color: rgb(152, 152, 152);
+}
+
+#billing_city_postal-code {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 13%;
+    margin-bottom: 6vh;
+}
+
+#postal-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 47%;
+    gap: 2vh;
+}
+
+#postal-code label {
+    font-size: 2.5em;
+    position: relative;
+    right: 4vw;
+}
+
+#billing-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 23%;
+    gap: 2vh;
+}
+
+#billing-city label {
+    font-size: 2.5em;
+    position: relative;
+    right: 36.5%;
+}
+
+#billing-city input {
+    width: 24vw;
+}
+
+#billing_phone-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 2vh;
+    margin-bottom: 4vh;
+    position: relative;
+    left: 3.5%;
+
+}
+
+#billing_phone-number label {
+    font-size: 2.5em;
+    position: relative;
+    right: 25%;
+}
+
+#billing_email-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: relative;
+    left: 4%;
+    margin-bottom: 4vh;
+
+}
+
+#billing_email-adress label {
+    font-size: 2.5em;
+    position: relative;
+    right: 7%;
+}
+
+#billing_email-adress input {
+    width: 24vw;
+    position: relative;
+    left: 7%;
+
+}
+
+#billing_email_phone-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    position: relative;
+    right: 27%;
+}
+
+#delivery_same-adress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 4vh;
+    position: relative;
+    right: 8vw;
+}
+
+#delivery_same-adress label {
+    font-size: 2.5em;
+    position: relative;
+    right: 10%;
+}
+
+#delivery_same-adress input {
+    width: 2vw;
+}
+
+#delivery-adress_form {
+    margin-top: 8vh;
+    position: relative;
+    left: 15%;
+}
+
+.command_component_coordonnees {
+    /* border: 3px solid red; */
+    margin: 0;
+    padding: 0;
+    height: 68vh;
+    width: 25vw;
+    position: relative;
+    top: -10vh;
+}
+
+#confirm_button button {
+    font-family: 'Amatic SC', cursive;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 12vw;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 185, 148, 0.776);
+    position: relative;
+    right: 8%;
+    margin-top: 4vh;
+}
+
+#confirm_button button:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.8s;
+}

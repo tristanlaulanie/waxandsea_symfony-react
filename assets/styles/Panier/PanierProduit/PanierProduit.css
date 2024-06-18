@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.PanierProduit {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 25vh;
+    /* border: 4px solid #c314e6; */
+    height: 120vh;
+    width: 99.2vw;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h1 {
+    font-size: 3.1em;
+}
+
+#PanierProduit_main_container {
+    position: relative;
+    /* border: 3px solid red; */
+}
+
+#user-story-titles_panier {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    /* border: 1px solid red; */
+}
+
+#panier_user-story {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4vh;
+    /* border: 1px solid red; */
+}
+
+#panier_user-story h2 {
+    width: 25%;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#panier-title-story {
+    border-bottom: 3px solid black;
+}
+
+.panier_user-story-titles {
+    border-bottom: 5px dotted grey;
+    margin-left: 5px;
+}
+
+#mon-panier_produit_commande {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mon-panier_produit {
+    padding: 0;
+    margin: 7.2vh 0 0;
+    align-self: flex-start;
+    /* border: 3px solid red; */
+    height: 42.5vh;
+    width: 70%;
+}
+
+#panier_container_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 80%;
+    width: 100%;
+    border-bottom: 4px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+#panier_container_title h3 {
+    position: relative;
+    top: 2vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#panier_title-icon-button {
+    position: relative;
+    top: 2vh;
+    left: -3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+#panier_title-icon-button div {
+    position: relative;
+    top: 15px;
+    right: 3vw;
+    font-size: 2em;
+}
+
+#panier_title-icon-button button {
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    top: 1.5vh;
+    width: 6em;
+    font-size: 1.6em;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+
+#panier_title-icon-button button:hover {
+    transition: 0.8s;
+    cursor: pointer;
+    color: greenyellow;
+    background-color: black;
+}
+
+#mon-panier_section-produit {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid rgb(6, 239, 25); */
+    width: 110%;
+}
+
+#mon-panier_section-produit img {
+    width: 150px;
+    height: 170px;
+}
+
+#section-produit_text {
+    padding-left: 1em;
+}
+
+.section-produit_text-img h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#produit_text {
+    position: relative;
+    top: -4vh;
+    display: flex;
+    gap: 8vw;
+}
+
+#produit_text_ref {
+    text-align: left;
+    top: 4vh;
+}
+
+#produit_text_price {
+    text-align: left;
+    top: 0;
+}
+
+.section-produit_text-img p {
+    /* border: 3px solid red; */
+    font-size: 1.8em;
+}
+
+#produit_quantity {
+    position: relative;
+    height: 6.8vh;
+    width: 48%;
+    padding: 8px;
+    font-size: 2em;
+    display: flex;
+    gap: 3vw;
+    border: 3px solid black;
+}
+
+.quantity_operator {
+    font-size: 2em;
+    position: relative;
+    top: -2.5vh;
+}
+
+.quantity_operator:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.quantity_number {
+    position: relative;
+    top: 0vh;
+}
+
+#produit_delete {
+    font-size: 1.9em;
+    font-weight: bold;
+    position: relative;
+    left: 14vw;
+    top: -7vh;
+    border: 1px dashed black;
+    width: 7vw;
+    text-align: center;
+}
+
+#produit_delete:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#section-produit_total {
+    /* border: 2px solid red; */
+    height: 12vh;
+    text-align: left;
+    position: sticky;
+    margin-top: -2vh;
+    left: 57%;
+    font-size: 2em;
+}
+
+#section-produit_total p {
+    font-weight: bold;
+}
+
+#panier-produit_commande_component {
+    position: relative;
+    top: -7vh;
+}
+
+#valid_button button {
+    font-family: 'Amatic SC', cursive;
+    bottom: 9vh;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 12vw;
+    height: 6vh;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 185, 148, 0.776);
+    left: 1.5vw;
+}
+
+#valid_button button:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 0.8s;
+}
+
+#panier-produit_commande_component {
+    position: absolute;
+    right: 0; 
+    margin-top: 14vh; 
+    margin-right: 1%;
+    /* border: 4px dotted rgb(38, 0, 255); */
+    height: 42vh;
+    width: 22vw;
+}
+
+#mon-panier_commande {
+    position: relative;
+    top: -18vh;
+    left: -1.5vw;
+}

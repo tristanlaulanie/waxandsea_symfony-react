@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+.Boutique {
+    font-family: 'Amatic SC', cursive;
+    height: 320vh;
+    width: 99.2vw;
+    padding-left: 5em;
+    padding-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_title {
+    margin-bottom: 40px;
+}
+
+#shop_products_title {
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.shop_description{
+    font-size: 1.5vw;
+    margin-bottom: 2.5vh;
+    letter-spacing: 3px;
+}
+
+.article_pic_title h2 {
+    font-size: 2.1vw;
+    /* border: 1px solid red; */
+}
+
+#product-order-instruction {
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+#product-order-instruction i {
+    font-size: 0.7em;
+    margin-right: 1vw;
+}
+
+#product-order_cart-icon {
+    margin-left: 0.8vw;
+}
+
+.description_cart-icon {
+    font-size: 1.2em;
+}
+
+#washable-towels {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 3.1vh;
+    margin-bottom: 2.5vh;
+}
+
+#handbag-organizer {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 3vh;
+}
+
+.article_pic_title i {
+    font-size: 1.5vw;
+    color: #FFA500;
+    transition: 0.15s;
+}
+
+.article_pic_title i:hover {
+    color: lightgreen;
+    cursor: pointer;
+    font-size: 1.8vw;
+}
+
+.add-product-to-cart {
+    margin-top: 2vh;
+}
+
+.images-grid {
+    position: relative;
+    top: 13vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de taille égale */
+    grid-gap: 90px; /* Espace entre les images */
+    width: 100%; /* Largeur totale du conteneur */
+    max-width: 900px; /* Largeur maximale du conteneur */
+    margin: auto; /* Centre le conteneur horizontalement */
+}
+
+.article_pic_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-grid img
+ {
+    width: 100%; /* Chaque image remplit entièrement sa cellule de grille */
+    height: auto; /* Hauteur auto pour maintenir l'aspect ratio des images */
+    border-radius: 12px; /* Coins arrondis */
+}
+
+.images-flex {
+    margin-top: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.images-flex img {
+    width: 15vw;
+    height: auto;
+    border-radius: 12px;
+}
