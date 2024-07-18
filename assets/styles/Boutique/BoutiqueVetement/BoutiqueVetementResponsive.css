@@ -2,7 +2,7 @@
 
 @media screen and (max-height: 1530px) {
   .BoutiqueVetement {
-    height: 260vh;
+    height: 300vh;
   }
 
   #product_main-container {
@@ -57,13 +57,14 @@
     position: relative;
     top: 16vh;
     left: -7vw;
+    width: 10vw;
   }
 
   #vetement_product_add-to-cart_button {
     height: 3em;
     position: relative;
     left: -1.5vw;
-    top: 24vh;
+    top: 34vh;
   }
 }
 

@@ -35,7 +35,7 @@ function BoutiqueVetement() {
           <div id="product_name_price_description">
             <h2> Nom du vetement</h2>
             <p id="product_price"> Prix : xx €</p>
-            <p id="product_description">
+            <div id="product_description">
               <div id="product_description_container">
                 Description du vetement :<br></br> <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -45,7 +45,7 @@ function BoutiqueVetement() {
                 In hac habitasse platea dictumst. Nulla facilisi. Integer nunc
                 dolor, sodales eget.
               </div>
-            </p>
+            </div>
           </div>
         </section>
         <div id="product_colors_sizes_quantity_cart">
@@ -74,26 +74,28 @@ function BoutiqueVetement() {
               </select>
             </div>
           </section>
-          <section id="vetement_product_quantity">
-            <label id="product_quantity_label" for="quantity">
-              Quantité :
-            </label>
-            <input
-              id="product_quantity_input"
-              type="number"
-              name="quantity"
-              min="1"
-              max="10"
-            ></input>
+          <section id="vetement_product_quantity_total">
+            <div id="vetement_product_quantity">
+              <label id="product_quantity_label" htmlFor="quantity">
+                Quantité :
+              </label>
+              <input
+                id="product_quantity_input"
+                type="number"
+                name="quantity"
+                min="1"
+                max="10"
+              ></input>
+            </div>
+            <p>Total : XX €</p>
           </section>
           <section id="product_add-to-cart">
-            <p>Total : XX €</p>
             <button id="vetement_product_add-to-cart_button">
               <i id="">
                 <FontAwesomeIcon
                   className="product_add-to-cart_button_icon"
                   icon={faCartPlus}
-                  size="l"
+                  size="xl"
                 />
               </i>
               Ajouter au panier

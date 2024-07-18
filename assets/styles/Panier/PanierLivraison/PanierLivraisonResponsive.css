@@ -59,12 +59,13 @@
     #command_component_delivery {
       position: relative;
       top: 0;
+      left: 2.5vw;
     }
   
     #confirm_delivery button {
       position: relative;
       top: -6vh;
-      left: -2.5vw;
+      left: 6vw;
     }
   
     #colissimo_section {

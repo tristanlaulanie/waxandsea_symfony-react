@@ -1,14 +1,15 @@
 @media screen and (max-height: 1530px) {
   .BoutiqueAccessoire {
-    height: 230vh;
+    height: 330vh;
+    overflow-x: hidden;
   }
 
-  #product_main-container {
+  #product_main-container-detail {
     position: relative;
     top: -10vh;
   }
 
-  #product_images {
+  #product_images-detail {
     height: 70.8vh;
     width: 60vw;
   }
@@ -24,7 +25,7 @@
   #product_colors {
     position: relative;
     left: 2vw;
-    top: -20vh;
+    top: 10vh;
   }
 
   #product_sizes {
@@ -35,7 +36,7 @@
 
   #sizes-select {
     position: relative;
-    top: -2vh;
+    top: 2vh;
     left: 2.2vw;
     width: 230px;
   }
@@ -54,8 +55,8 @@
   #accessoire_product_add-to-cart p {
     font-weight: bolder;
     position: relative;
-    left: 48vw;
-    top: 8vh;
+    left: 50vw;
+    top: 23vh;
     font-size: 2.5em;
   }
 
@@ -63,7 +64,7 @@
     height: 3em;
     position: relative;
     left: 48vw;
-    top: 12vh;
+    top: 28vh;
   }
 }
 
@@ -101,9 +102,11 @@
   .BoutiqueAccessoire {
     height: 320vh;
   }
-  #product_main_title {
+
+  #product_main_title-detail {
     top: 22vh;
   }
+
   #product_description {
     height: 103vh;
   }
@@ -114,7 +117,7 @@
     height: 320vh;
   }
 
-  #product_main_title {
+  #product_main_title-detail {
     top: 22vh;
   }
 
@@ -278,14 +281,14 @@
 }
 
 @media screen and (max-height: 1920px) and (width <= 610px) {
-  #product_images {
+  #product_images-detail {
     position: relative;
     left: 8vw;
   }
 }
 
 @media screen and (max-height: 760px) and (width <= 610px) {
-  #product_images {
+  #product_images-detail {
     position: relative;
     left: 8vw;
   }

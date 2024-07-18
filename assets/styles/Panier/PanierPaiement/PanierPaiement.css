@@ -133,10 +133,10 @@ form {
 }
 
 #card-number label {
+  font-size: 2.2em;
   text-align: left;
   position: relative;
   left: 11%;
-  /* border: 3px solid red; */
   width: 20vw;
 }
 
@@ -144,6 +144,7 @@ form {
   width: 16vw;
   position: relative;
   left: 2%;
+  font-size: 1.3em;
 }
 
 #security-expiry-card {
@@ -172,12 +173,14 @@ form {
   text-align: left;
   position: relative;
   left: 1vw;
+  font-size: 2.2em;
 }
 
 #paiement_expiry-date input {
   position: relative;
   left: 1vw;
   width: 45%;
+  font-size: 1.5em;
 }
 
 #paiement_security-code {
@@ -194,12 +197,14 @@ form {
   text-align: left;
   position: relative;
   left: 0.5vw;
+  font-size: 2.2em;
 }
 
 #paiement_security-code input {
   position: relative;
   left: 0.5vw;
   width: 58%;
+  font-size: 1.5em;
 }
 
 .paypal-container {

@@ -1,13 +1,21 @@
 {
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-react": "^7.24.7",
-    "@symfony/webpack-encore": "^1.7.0",
+    "@symfony/webpack-encore": "^1.8.2",
     "babel-loader": "^8.1.0",
-    "node-sass": "^6.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sass": "^1.77.6",
     "sass-loader": "^12.0.0",
     "webpack-notifier": "^1.6.0"
   },

@@ -1,4 +1,4 @@
-// REACT IMPORT
+ // REACT IMPORT
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
@@ -27,6 +27,11 @@ function Boutique() {
         setProducts(json)
       });
    }, []); // Tableau de dépendances vide signifie que cet effet ne s'exécute qu'après le premier rendu.
+
+   const formatProductNameForUrl = (name) => {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
+  };
+
   return (
     <div className="Boutique">
       <h1 id="main_title">Boutique</h1>
@@ -66,7 +71,7 @@ function Boutique() {
             <div key={product.id} className="article_pic_title">
             <img src={product.image} alt="Pic"></img>
             <h2>{product.name}</h2>
-            <Link to="/boutique/accessoire">
+            <Link to={`/boutique/${formatProductNameForUrl(product.name)}`}>
               <i>
                 <FontAwesomeIcon
                   className="add-product-to-cart"

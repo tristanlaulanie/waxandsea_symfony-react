@@ -166,7 +166,7 @@
 @media screen and (width <= 1530px) {
   #produit_quantity {
     position: relative;
-    top: -30px;
+    top: 8px;
   }
 
   .quantity_number {
@@ -202,7 +202,8 @@
   }
 
   #valid_button button {
-    top: -73vh;
+    top: -82vh;
+    left: 4.8vw;
   }
 }
 

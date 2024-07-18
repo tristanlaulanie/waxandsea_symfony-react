@@ -95,7 +95,7 @@ function Header() {
                 </p>
               </span>
               <p id="payment_title">
-                <Link to="/paiement">Paiement</Link>
+                <Link to="/panier/paiement">Paiement</Link>
               </p>
               <p id="signup_title">
                 <Link to="/enregistrement">M'enregistrer</Link>

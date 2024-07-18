@@ -105,7 +105,8 @@
     grid-template-rows: repeat(2, 80px);    /* Crée deux lignes de 80px chacune */
     gap: 20px; /* Espacement entre les divs */
     position: relative;
-    top: -2vh;
+    top: 2vh;
+    left: -1vw;
 }
 
 #product_colors {
@@ -200,15 +201,31 @@
     letter-spacing: 2px;
 }
 
-#vetement_product_quantity {
+#vetement_product_quantity_total {
     width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    left: 46vw;
+}
+
+#vetement_product_quantity {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#vetement_product_quantity_total p {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    width: 12vw;
     position: relative;
-    top: 10vh;
-    left: 46vw;
+    left: -2vw;
 }
 
 #product_quantity_label {

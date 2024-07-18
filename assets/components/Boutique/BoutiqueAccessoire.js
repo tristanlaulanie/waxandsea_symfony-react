@@ -35,7 +35,7 @@ function BoutiqueAccessoire() {
           <div id="product_name_price_description">
             <h2> Nom de l'accessoire</h2>
             <p id="product_price"> Prix : xx €</p>
-            <p id="product_description">
+            <div id="product_description">
               <div id="product_description_container">
                 Description de l'accessoire :<br></br> <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -45,7 +45,7 @@ function BoutiqueAccessoire() {
                 In hac habitasse platea dictumst. Nulla facilisi. Integer nunc
                 dolor, sodales eget.
               </div>
-            </p>
+            </div>
           </div>
         </section>
         <div id="product_colors_sizes_quantity_cart">
@@ -74,7 +74,7 @@ function BoutiqueAccessoire() {
             </div>
           </section>
           <section id="accessoire_product_quantity">
-            <label id="product_quantity_label" for="quantity">
+            <label id="product_quantity_label" htmlFor="quantity">
               Quantité :
             </label>
             <input
@@ -84,9 +84,9 @@ function BoutiqueAccessoire() {
               min="1"
               max="10"
             ></input>
-          </section>
-          <section id="accessoire_product_add-to-cart">
             <p>Total : XX €</p>
+          </section>
+          <div id="accessoire_product_add-to-cart">
             <button id="accessoire_product_add-to-cart_button">
               <i id="">
                 <FontAwesomeIcon
@@ -97,7 +97,7 @@ function BoutiqueAccessoire() {
               </i>
               Ajouter au panier
             </button>
-          </section>
+          </div>
         </div>
       </main>
     </div>

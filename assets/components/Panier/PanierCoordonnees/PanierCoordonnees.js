@@ -145,7 +145,7 @@ function PanierCoordonnees() {
             </section>
             <div id="delivery-adress_form">
               <h1 id="billing-adress_title">Adresse de livraison :</h1>
-              <h2 id="billing-adress_country">
+              <h2 id="delivery-adress_country">
                 Pays : <strong>France</strong>
               </h2>
               <section id="delivery_adress_form">

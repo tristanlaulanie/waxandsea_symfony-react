@@ -16,28 +16,28 @@ function Accueil() {
       <div>
         <Slider className="slider" />
         <Description className="description"/>
-        <container className="container_card_produit">
+        <div className="container_card_produit">
           <CardProduit />
           <CardProduit />
           <CardProduit />
-        </container>
-        <container className="banniere_pub">
+        </div>
+        <div className="banniere_pub">
         <BannierePub/>
-        </container>
-        <container className="container-card-shopping">
+        </div>
+        <div className="container-card-shopping">
           <CardShopping />
           <CardShopping />
           <CardShopping />
-        </container>
-        <container className="container-card-shopping">
+        </div>
+        <div className="container-card-shopping">
           <CardShopping />
           <CardShopping />
           <CardShopping />
-        </container>
-        <container className="container-card-shopping">
+        </div>
+        <div className="container-card-shopping">
           <CardShopping />
           <CardShopping />
-        </container>
+        </div>
       </div>
     </>
   );

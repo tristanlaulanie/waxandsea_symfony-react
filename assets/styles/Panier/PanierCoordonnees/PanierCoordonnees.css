@@ -3,7 +3,7 @@
 .PanierCoordonnees {
     font-family: 'Amatic SC', cursive;
     margin-top: 20vh;
-    height: 250vh;
+    height: 280vh;
     width: 99.2vw;
     padding-left: 5em;
     padding-right: 5em;
@@ -150,6 +150,7 @@ form input {
     width: 56%;
     position: relative;
     left: -6%;
+    font-size: 1em;
 }
 
 #building::placeholder {

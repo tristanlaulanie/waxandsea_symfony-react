@@ -139,6 +139,11 @@
   right: 1vw;
 }
 
+#command_component_delivery {
+  position: relative;
+  width: 27vw;
+}
+
 #confirm_delivery button {
   font-family: 'Amatic SC', cursive;
   border: 3px solid black;

@@ -20,12 +20,15 @@ import CGV from "./components/CGV";
 import MentionsLegales from "./components/MentionsLegales";
 import PolitiqueDeConfidentialite from "./components/PolitiqueDeConfidentialite";
 import Footer from "./components/Footer";
+// import { CartProvider } from "./js/context/CartContext";
+import ProductDetail from "./components/ProductDetail/ProductDetail";
 
 
 const rootElement = document.getElementById("app");
 if (rootElement) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
+    // <CartProvider>
     <Router>
       <Header />
       <Routes>
@@ -34,6 +37,7 @@ if (rootElement) {
         <Route path="/boutique" element={<Boutique />} />
         <Route path="/boutique/accessoire" element={<BoutiqueAccessoire />} />
         <Route path="/boutique/vetement" element={<BoutiqueVetement />} />
+        <Route path="/boutique/:name" element={<ProductDetail />} />
         <Route path="/sur-mesure" element={<SurMesure />} />
         <Route path="/panier" element={<Panier />} />
         <Route path="/panier/produit" element={<PanierProduit />} />
@@ -49,5 +53,6 @@ if (rootElement) {
       </Routes>
       <Footer />
     </Router>
+    // </CartProvider>
   );
 }

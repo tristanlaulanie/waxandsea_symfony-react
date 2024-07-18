@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 #product_main_title {
@@ -23,7 +24,7 @@
     margin-right: 20%;
     margin-bottom: 10em;
     position: absolute;
-    top: 4em;
+    top: 6em;
     
 }
 
@@ -78,7 +79,7 @@
     text-align: left;
 }
 
-#product_description {
+#product_description_SurMesure {
     margin-top: 2em;
     height: 62vh;
     width: 53%;
@@ -232,7 +233,7 @@
     width: 120px;
 }
 
-#product_add-to-cart {
+#product_add-to-cart_SurMesure {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -243,7 +244,7 @@
 
 }
 
-#product_add-to-cart p {
+#product_add-to-cart_SurMesure p {
     font-size: 2.2em;
     margin-top: 1em;
     letter-spacing: 2px;

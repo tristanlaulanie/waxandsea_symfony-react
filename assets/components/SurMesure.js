@@ -35,7 +35,7 @@ function SurMesure() {
           <div id="product_name_price_description">
             <h2> Nom du vetement</h2>
             <p id="product_price"> Prix : xx €</p>
-            <p id="product_description">
+            <p id="product_description_SurMesure">
               <span id="product_description_container">
                 Description :<br></br> <br></br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -123,7 +123,7 @@ function SurMesure() {
               max="10"
             ></input>
           </section>
-          <section id="product_add-to-cart">
+          <section id="product_add-to-cart_SurMesure">
             <p>Total : XX €</p>
             <button id="product_add-to-cart_button">
               <i id="">
